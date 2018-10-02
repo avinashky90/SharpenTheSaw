@@ -1,5 +1,5 @@
 
-public class Factorial {
+public class FactorialRecursive {
 	
 	private static int num = 5;
 
