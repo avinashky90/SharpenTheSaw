@@ -1,0 +1,15 @@
+Process Vs Thread. - Tasklist
+advantages and disadvantages.
+When we use concurrent progrmming even without knowing it.
+1. Why use Concurrent systems ?
+2. Demonstrate Concurrent Access Problem.. ?
+3. Why Instance level object declarations are not ok..
+4. Components that we want to be threadsafe (Servlets, Spring Service, Single and threadsafe. Immutable and threadsafe)
+5. Are Singletons threadssafe.. ?
+5. Are immutables threadsafe.. ?
+5. we are in corporate.. chalta hai attitude.. but real world is not as forgiving.
+5. calling run() vs Thread.start()
+
+6. Difference between Preemptive and Non-Preemptive Scheduling in OS \ 
+Preemptive scheduling is one which can be done in the circumstances when a process switches from running state to ready state or from waiting state to ready state. Here, the resources (CPU cycles) are allocated to the process for the limited amount of time and then is taken away, and the process is placed back in the ready queue again if it still has CPU burst time remaining.
+
