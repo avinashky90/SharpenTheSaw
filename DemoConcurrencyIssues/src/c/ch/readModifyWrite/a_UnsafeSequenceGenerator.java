@@ -6,7 +6,7 @@ import org.omg.CORBA.portable.ValueBase;
 
 //Prone to race conditions..
 //What if this generates enetity identifiers that wil be used in persistence.
-public class UnsafeSequenceGenerator {
+public class a_UnsafeSequenceGenerator {
 	private static int value = 0;
 //	private static AtomicInteger value = new AtomicInteger(0);
 	// Would Volatile help here  .. ?

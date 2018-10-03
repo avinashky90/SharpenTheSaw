@@ -1,6 +1,6 @@
 package c.ch.readModifyWrite;
 
-public class SequenceGenApp {
+public class a_SequenceGenApp {
 
 	public static void main(String[] args) {
 		// if there are no concurrency 
@@ -21,7 +21,7 @@ class SequenceClient implements Runnable {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			int num = UnsafeSequenceGenerator.getNext();
+			int num = a_UnsafeSequenceGenerator.getNext();
 //			int num = SafeSequenceGenerator.getNext();
 			System.out.println(Thread.currentThread().getName() + " -> " + num);
 		}
